@@ -1,4 +1,4 @@
-import natural from 'natural';
+import JaroWinklerDistance from 'natural/lib/natural/distance/jaro-winkler_distance.js';
 import { STANDARD_MENU_CATEGORIES, STANDARD_ALLERGY_CATEGORIES } from './constants.js';
 
 const { JaroWinklerDistance } = natural;
