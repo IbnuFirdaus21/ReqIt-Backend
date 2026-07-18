@@ -4,8 +4,7 @@ import {
     ALLERGY_CATEGORY_DESCRIPTIONS
 } from './constants.js';
 
-import natural from 'natural';
-const { JaroWinklerDistance } = natural;
+import JaroWinklerDistance from 'natural/lib/natural/distance/jaro-winkler_distance.js';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent';
