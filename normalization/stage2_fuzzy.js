@@ -1,8 +1,6 @@
 import JaroWinklerDistance from 'natural/lib/natural/distance/jaro-winkler_distance.js';
 import { STANDARD_MENU_CATEGORIES, STANDARD_ALLERGY_CATEGORIES } from './constants.js';
 
-const { JaroWinklerDistance } = natural;
-
 // Threshold minimum similarity untuk diterima di Stage 2
 const FUZZY_THRESHOLD_MENU = 0.85;
 const FUZZY_THRESHOLD_ALLERGY = 0.85;
