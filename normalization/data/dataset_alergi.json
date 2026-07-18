@@ -1,0 +1,202 @@
+[
+  {
+    "input": "alergi susu",
+    "expected": "DAIRY",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "ga tahan susu",
+    "expected": "DAIRY",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "lactose intolerant",
+    "expected": "DAIRY",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "alergi dairy",
+    "expected": "DAIRY",
+    "kategori_uji": "kode_langsung"
+  },
+  {
+    "input": "tidak bisa minum susu",
+    "expected": "DAIRY",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "susu bikin gatal",
+    "expected": "DAIRY",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "alergi telur",
+    "expected": "EGGS",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "ga bisa makan telur",
+    "expected": "EGGS",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "egg allergy",
+    "expected": "EGGS",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "telur bikin bentol",
+    "expected": "EGGS",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "alergi kacang",
+    "expected": "PEANUT",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "kacang tanah bikin sesak",
+    "expected": "PEANUT",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "peanut allergy",
+    "expected": "PEANUT",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "alergi kacang tanah",
+    "expected": "PEANUT",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi kenari",
+    "expected": "TREENUT",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi mete",
+    "expected": "TREENUT",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "tree nut allergy",
+    "expected": "TREENUT",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "alergi almond",
+    "expected": "TREENUT",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi kedelai",
+    "expected": "SOY",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi tahu tempe",
+    "expected": "SOY",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "soy allergy",
+    "expected": "SOY",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "ga cocok sama kedelai",
+    "expected": "SOY",
+    "kategori_uji": "informal"
+  },
+  {
+    "input": "alergi gluten",
+    "expected": "GLUTEN",
+    "kategori_uji": "kode_langsung"
+  },
+  {
+    "input": "alergi gandum",
+    "expected": "GLUTEN",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "celiac",
+    "expected": "GLUTEN",
+    "kategori_uji": "istilah_medis"
+  },
+  {
+    "input": "tidak bisa makan tepung",
+    "expected": "GLUTEN",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "alergi ikan",
+    "expected": "FISH",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "fish allergy",
+    "expected": "FISH",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "makan ikan langsung merah merah",
+    "expected": "FISH",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "alergi seafood",
+    "expected": "SEAFOOD",
+    "kategori_uji": "kode_langsung"
+  },
+  {
+    "input": "alergi udang",
+    "expected": "SEAFOOD",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi kerang",
+    "expected": "SEAFOOD",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "ga bisa makan hasil laut",
+    "expected": "SEAFOOD",
+    "kategori_uji": "deskriptif"
+  },
+  {
+    "input": "alergi wijen",
+    "expected": "SESAME",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "sesame allergy",
+    "expected": "SESAME",
+    "kategori_uji": "bahasa_inggris"
+  },
+  {
+    "input": "alergi biji wijen",
+    "expected": "SESAME",
+    "kategori_uji": "formal"
+  },
+  {
+    "input": "alergi udara",
+    "expected": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "alergi semua makanan",
+    "expected": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "tidak ada",
+    "expected": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "alergi",
+    "expected": null,
+    "kategori_uji": "tidak_relevan"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "nama": "Nasi Goreng",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 2,
+    "nama": "Nasi Putih",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 3,
+    "nama": "Nasi Uduk",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 4,
+    "nama": "Nasi Kuning",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 5,
+    "nama": "Nasi Padang",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 6,
+    "nama": "Nasi Bakar",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 7,
+    "nama": "Nasi Liwet",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 8,
+    "nama": "Nasi Campur",
+    "kategori": "Nasi"
+  },
+  {
+    "id": 9,
+    "nama": "Mie Goreng",
+    "kategori": "Mie"
+  },
+  {
+    "id": 10,
+    "nama": "Mie Ayam",
+    "kategori": "Mie"
+  },
+  {
+    "id": 11,
+    "nama": "Mie Rebus",
+    "kategori": "Mie"
+  },
+  {
+    "id": 12,
+    "nama": "Bihun Goreng",
+    "kategori": "Mie"
+  },
+  {
+    "id": 13,
+    "nama": "Kwetiau Goreng",
+    "kategori": "Mie"
+  },
+  {
+    "id": 14,
+    "nama": "Spaghetti Bolognese",
+    "kategori": "Mie"
+  },
+  {
+    "id": 15,
+    "nama": "Ayam Goreng",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 16,
+    "nama": "Ayam Bakar",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 17,
+    "nama": "Ayam Geprek",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 18,
+    "nama": "Ayam Crispy",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 19,
+    "nama": "Opor Ayam",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 20,
+    "nama": "Ayam Kecap",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 21,
+    "nama": "Rendang Sapi",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 22,
+    "nama": "Semur Daging",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 23,
+    "nama": "Ikan Goreng",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 24,
+    "nama": "Ikan Bakar",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 25,
+    "nama": "Ikan Asin",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 26,
+    "nama": "Udang Goreng",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 27,
+    "nama": "Telur Dadar",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 28,
+    "nama": "Telur Balado",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 29,
+    "nama": "Telur Rebus",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 30,
+    "nama": "Tempe Goreng",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 31,
+    "nama": "Tempe Bacem",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 32,
+    "nama": "Tahu Goreng",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 33,
+    "nama": "Tahu Bacem",
+    "kategori": "Lauk"
+  },
+  {
+    "id": 34,
+    "nama": "Sayur Bayam",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 35,
+    "nama": "Sayur Asem",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 36,
+    "nama": "Sayur Lodeh",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 37,
+    "nama": "Tumis Kangkung",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 38,
+    "nama": "Tumis Buncis",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 39,
+    "nama": "Capcay",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 40,
+    "nama": "Gado-gado",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 41,
+    "nama": "Urap Sayur",
+    "kategori": "Sayur"
+  },
+  {
+    "id": 42,
+    "nama": "Soto Ayam",
+    "kategori": "Sup"
+  },
+  {
+    "id": 43,
+    "nama": "Soto Betawi",
+    "kategori": "Sup"
+  },
+  {
+    "id": 44,
+    "nama": "Sup Ayam",
+    "kategori": "Sup"
+  },
+  {
+    "id": 45,
+    "nama": "Sup Sapi",
+    "kategori": "Sup"
+  },
+  {
+    "id": 46,
+    "nama": "Bakso",
+    "kategori": "Sup"
+  },
+  {
+    "id": 47,
+    "nama": "Rawon",
+    "kategori": "Sup"
+  },
+  {
+    "id": 48,
+    "nama": "Konro",
+    "kategori": "Sup"
+  },
+  {
+    "id": 49,
+    "nama": "Risol",
+    "kategori": "Snack"
+  },
+  {
+    "id": 50,
+    "nama": "Pastel",
+    "kategori": "Snack"
+  },
+  {
+    "id": 51,
+    "nama": "Lemper",
+    "kategori": "Snack"
+  },
+  {
+    "id": 52,
+    "nama": "Martabak Telur",
+    "kategori": "Snack"
+  },
+  {
+    "id": 53,
+    "nama": "Pisang Goreng",
+    "kategori": "Snack"
+  },
+  {
+    "id": 54,
+    "nama": "Perkedel",
+    "kategori": "Snack"
+  },
+  {
+    "id": 55,
+    "nama": "Buah Semangka",
+    "kategori": "Buah"
+  },
+  {
+    "id": 56,
+    "nama": "Buah Melon",
+    "kategori": "Buah"
+  },
+  {
+    "id": 57,
+    "nama": "Buah Jeruk",
+    "kategori": "Buah"
+  },
+  {
+    "id": 58,
+    "nama": "Buah Pisang",
+    "kategori": "Buah"
+  },
+  {
+    "id": 59,
+    "nama": "Jus Alpukat",
+    "kategori": "Minuman"
+  },
+  {
+    "id": 60,
+    "nama": "Susu Coklat",
+    "kategori": "Minuman"
+  }
+]

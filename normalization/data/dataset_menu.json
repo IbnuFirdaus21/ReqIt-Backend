@@ -1,0 +1,482 @@
+[
+  {
+    "input": "bihun gorengx",
+    "expected_id": 12,
+    "expected_nama": "Bihun Goreng",
+    "kategori_uji": "typo_ringan"
+  },
+  {
+    "input": "bihun gor",
+    "expected_id": 12,
+    "expected_nama": "Bihun Goreng",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "BiHuN GoReNg",
+    "expected_id": 12,
+    "expected_nama": "Bihun Goreng",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "soto bet4wi",
+    "expected_id": 43,
+    "expected_nama": "Soto Betawi",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "soto bet",
+    "expected_id": 43,
+    "expected_nama": "Soto Betawi",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "SoTo bEtAwI",
+    "expected_id": 43,
+    "expected_nama": "Soto Betawi",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "tempe gorengx",
+    "expected_id": 30,
+    "expected_nama": "Tempe Goreng",
+    "kategori_uji": "typo_ringan"
+  },
+  {
+    "input": "tempe gor",
+    "expected_id": 30,
+    "expected_nama": "Tempe Goreng",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "TeMpE GoReNg",
+    "expected_id": 30,
+    "expected_nama": "Tempe Goreng",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "telur b4lado",
+    "expected_id": 28,
+    "expected_nama": "Telur Balado",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "telur bal",
+    "expected_id": 28,
+    "expected_nama": "Telur Balado",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "TeLuR BaLaDo",
+    "expected_id": 28,
+    "expected_nama": "Telur Balado",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "n4si kuning",
+    "expected_id": 4,
+    "expected_nama": "Nasi Kuning",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "nasi kun",
+    "expected_id": 4,
+    "expected_nama": "Nasi Kuning",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "NaSi kUnInG",
+    "expected_id": 4,
+    "expected_nama": "Nasi Kuning",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "s4yur asem",
+    "expected_id": 35,
+    "expected_nama": "Sayur Asem",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "sayur ase",
+    "expected_id": 35,
+    "expected_nama": "Sayur Asem",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "SaYuR AsEm",
+    "expected_id": 35,
+    "expected_nama": "Sayur Asem",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "susu cokl4t",
+    "expected_id": 60,
+    "expected_nama": "Susu Coklat",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "susu cok",
+    "expected_id": 60,
+    "expected_nama": "Susu Coklat",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "SuSu cOkLaT",
+    "expected_id": 60,
+    "expected_nama": "Susu Coklat",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "ik4n bakar",
+    "expected_id": 24,
+    "expected_nama": "Ikan Bakar",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "ikan bak",
+    "expected_id": 24,
+    "expected_nama": "Ikan Bakar",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "IkAn bAkAr",
+    "expected_id": 24,
+    "expected_nama": "Ikan Bakar",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "t4hu goreng",
+    "expected_id": 32,
+    "expected_nama": "Tahu Goreng",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "tahu gor",
+    "expected_id": 32,
+    "expected_nama": "Tahu Goreng",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "TaHu gOrEnG",
+    "expected_id": 32,
+    "expected_nama": "Tahu Goreng",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "risolx",
+    "expected_id": 49,
+    "expected_nama": "Risol",
+    "kategori_uji": "typo_ringan"
+  },
+  {
+    "input": "risol",
+    "expected_id": 49,
+    "expected_nama": "Risol",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "RiSoL",
+    "expected_id": 49,
+    "expected_nama": "Risol",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "sup 4yam",
+    "expected_id": 44,
+    "expected_nama": "Sup Ayam",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "sup aya",
+    "expected_id": 44,
+    "expected_nama": "Sup Ayam",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "SuP AyAm",
+    "expected_id": 44,
+    "expected_nama": "Sup Ayam",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "bu4h pisang",
+    "expected_id": 58,
+    "expected_nama": "Buah Pisang",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "buah pis",
+    "expected_id": 58,
+    "expected_nama": "Buah Pisang",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "BuAh pIsAnG",
+    "expected_id": 58,
+    "expected_nama": "Buah Pisang",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "jus 4lpukat",
+    "expected_id": 59,
+    "expected_nama": "Jus Alpukat",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "jus alp",
+    "expected_id": 59,
+    "expected_nama": "Jus Alpukat",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "JuS AlPuKaT",
+    "expected_id": 59,
+    "expected_nama": "Jus Alpukat",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "ik4n asin",
+    "expected_id": 25,
+    "expected_nama": "Ikan Asin",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "ikan asi",
+    "expected_id": 25,
+    "expected_nama": "Ikan Asin",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "IkAn aSiN",
+    "expected_id": 25,
+    "expected_nama": "Ikan Asin",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "t4hu bacem",
+    "expected_id": 33,
+    "expected_nama": "Tahu Bacem",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "tahu bac",
+    "expected_id": 33,
+    "expected_nama": "Tahu Bacem",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "TaHu bAcEm",
+    "expected_id": 33,
+    "expected_nama": "Tahu Bacem",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "n4si padang",
+    "expected_id": 5,
+    "expected_nama": "Nasi Padang",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "nasi pad",
+    "expected_id": 5,
+    "expected_nama": "Nasi Padang",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "NaSi pAdAnG",
+    "expected_id": 5,
+    "expected_nama": "Nasi Padang",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "n4si campur",
+    "expected_id": 8,
+    "expected_nama": "Nasi Campur",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "nasi cam",
+    "expected_id": 8,
+    "expected_nama": "Nasi Campur",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "NaSi cAmPuR",
+    "expected_id": 8,
+    "expected_nama": "Nasi Campur",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "s4yur bayam",
+    "expected_id": 34,
+    "expected_nama": "Sayur Bayam",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "sayur bay",
+    "expected_id": 34,
+    "expected_nama": "Sayur Bayam",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "SaYuR BaYaM",
+    "expected_id": 34,
+    "expected_nama": "Sayur Bayam",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "bu4h melon",
+    "expected_id": 56,
+    "expected_nama": "Buah Melon",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "buah mel",
+    "expected_id": 56,
+    "expected_nama": "Buah Melon",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "BuAh mElOn",
+    "expected_id": 56,
+    "expected_nama": "Buah Melon",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "r4won",
+    "expected_id": 47,
+    "expected_nama": "Rawon",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "rawon",
+    "expected_id": 47,
+    "expected_nama": "Rawon",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "RaWoN",
+    "expected_id": 47,
+    "expected_nama": "Rawon",
+    "kategori_uji": "kapitalisasi_acak"
+  },
+  {
+    "input": "nasi g0reng",
+    "expected_id": 1,
+    "expected_nama": "Nasi Goreng",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "mie 4yam",
+    "expected_id": 10,
+    "expected_nama": "Mie Ayam",
+    "kategori_uji": "substitusi_karakter"
+  },
+  {
+    "input": "ayam grpek",
+    "expected_id": 17,
+    "expected_nama": "Ayam Geprek",
+    "kategori_uji": "typo_berat"
+  },
+  {
+    "input": "rndang",
+    "expected_id": 21,
+    "expected_nama": "Rendang Sapi",
+    "kategori_uji": "typo_berat"
+  },
+  {
+    "input": "bkso",
+    "expected_id": 46,
+    "expected_nama": "Bakso",
+    "kategori_uji": "typo_berat"
+  },
+  {
+    "input": "nasi item",
+    "expected_id": 3,
+    "expected_nama": "Nasi Uduk",
+    "kategori_uji": "bahasa_informal"
+  },
+  {
+    "input": "ceker ayam goreng",
+    "expected_id": 15,
+    "expected_nama": "Ayam Goreng",
+    "kategori_uji": "bahasa_informal"
+  },
+  {
+    "input": "geprek",
+    "expected_id": 17,
+    "expected_nama": "Ayam Geprek",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "tempe orek",
+    "expected_id": 30,
+    "expected_nama": "Tempe Goreng",
+    "kategori_uji": "bahasa_informal"
+  },
+  {
+    "input": "soto",
+    "expected_id": 42,
+    "expected_nama": "Soto Ayam",
+    "kategori_uji": "singkatan"
+  },
+  {
+    "input": "apa aja yang enak",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "terserah",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "semua makanan",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "apapun boleh",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "12345",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "asdfgh",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "tidak_relevan"
+  },
+  {
+    "input": "nasi goreng anjing",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "kata_kasar"
+  },
+  {
+    "input": "mie ayam brengsek",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "kata_kasar"
+  },
+  {
+    "input": "bajingan",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "kata_kasar"
+  },
+  {
+    "input": "tai",
+    "expected_id": null,
+    "expected_nama": null,
+    "kategori_uji": "kata_kasar"
+  }
+]
