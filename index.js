@@ -53,7 +53,12 @@ db.connect((err) => {
 // Routes
 // Register
 app.post('/api/auth/register', async (req, res) => {
-    const { email, nis, password, hasAllergy, allergiesDetails } = req.body;
+    const { email, nis, password, hasAllergy, allergiesDetails, allergyType } = req.body;
+
+    // allergyType harus 'medis' atau 'preferensi' kalau siswa mengaku punya alergi
+    if (hasAllergy && !['medis', 'preferensi'].includes(allergyType)) {
+        return res.status(400).json({ error: "allergyType wajib diisi ('medis' atau 'preferensi') jika hasAllergy true" });
+    }
 
     try {
         // Check if NIS exists in students_data
@@ -98,8 +103,8 @@ app.post('/api/auth/register', async (req, res) => {
                     console.log('Alergi dinormalisasi:', { accepted, rejected });
                 }
 
-                const insertQuery = 'INSERT INTO users (email, nis, password, has_allergy, allergies_details) VALUES (?, ?, ?, ?, ?)';
-                db.query(insertQuery, [email, nis, hashedPassword, hasAllergy || false, normalizedAllergies], (err, result) => {
+                const insertQuery = 'INSERT INTO users (email, nis, password, has_allergy, allergy_type, allergies_details) VALUES (?, ?, ?, ?, ?, ?)';
+                db.query(insertQuery, [email, nis, hashedPassword, hasAllergy || false, hasAllergy ? allergyType : null, normalizedAllergies], (err, result) => {
                     if (err) return res.status(500).json({ error: 'Database error' });
                     res.status(201).json({ message: 'User registered successfully' });
                 });
@@ -372,6 +377,7 @@ app.get ('/api/allergies/summary', (req, res) => {
             u.nis, 
             u.email,
             u.allergies_details,
+            u.allergy_type,
             s.full_name,
             s.class
         FROM users u
@@ -386,8 +392,13 @@ app.get ('/api/allergies/summary', (req, res) => {
         // Process allergies
         const allergyStats = {};
         const allergyUsers = [];
+        let totalMedis = 0;
+        let totalPreferensi = 0;
 
         results.forEach(row => {
+            if (row.allergy_type === 'medis') totalMedis++;
+            else if (row.allergy_type === 'preferensi') totalPreferensi++;
+
             const allergies = parseAllergies(row.allergies_details);
             allergies.forEach(allergy => {
                 const normalized = normalizeAllergy(allergy);
@@ -404,7 +415,8 @@ app.get ('/api/allergies/summary', (req, res) => {
                 full_name: row.full_name || '-',
                 class: row.class || '-',
                 email: row.email,
-                allergies_details: row.allergies_details
+                allergies_details: row.allergies_details,
+                allergy_type: row.allergy_type || 'medis'
             });
         });
 
@@ -415,6 +427,8 @@ app.get ('/api/allergies/summary', (req, res) => {
 
         res.json({
             totalAllergyStudents,
+            totalMedis,
+            totalPreferensi,
             allergyStats: allergyStatsArray,
             allergyUsers
         });
